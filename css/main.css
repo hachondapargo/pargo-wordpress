@@ -1,0 +1,225 @@
+/** PARGO 2.0.1 Wordpress Plugin CSS File **/
+
+.gm-style * {
+  width:auto;
+  height:auto;
+}
+.pargo-modal-container {
+    height: 800px;
+}
+
+.pargo-pid {
+    display: none;
+}
+.pargo-button {
+    width: 100%;
+    text-align: center;
+    padding: 5px 12px;
+    margin: 10px 0;
+    font-weight: normal;
+    background: #ffeb3b;
+	border: 1px solid #ffeb3b;
+}
+.pargo-button:hover {
+    background: #ffcb3b;
+}
+.parg_inactive .pargo-button {
+    background: #f0f0f0;
+	border: 1px solid #f0f0f0;
+	color:#000;
+}
+.parg_inactive .pargo-button:hover {
+    background: #000;
+	color:#fff;
+}
+.pargo_description{
+	display: inherit;
+}
+.pargo-logo {
+    height: 20px!important;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+#pargo_devliery_add p{
+	margin:0px;
+}
+
+#pargo_selected_pickup_location img {
+    width: 100%!important;
+}
+
+#pargo_selected_pickup_location p:empty {
+    display: none;
+}
+
+#pick-up-point-img img:empty {
+    display: none;
+}
+
+div#pargo-modal2 {
+    z-index: 100000;
+}
+
+.modal.bs-example-modal-lg.in {
+    z-index: 100000;
+}
+
+button#pargo_what_is_this {
+    border: none;
+}
+
+.modal-backdrop {
+    display: none;
+}
+
+.pargo-cart {
+    max-width: 220px;
+}
+
+.pargo-disabled {
+    background: lightgray;
+    pointer-events: none;
+    cursor: default;
+}
+.parge_description{
+	display: inline;
+}
+.pargo_content{
+padding:20px;
+}
+#pargo_center{
+	max-width:100%;
+	display:table-cell;
+	width: 422px;
+    vertical-align: middle;
+}
+#pargo_inner,#pargo_map_inner{
+	width:422px;
+	max-width:100%;
+	border-radius:38px;
+	background:#fff;
+	color:#000;
+	font-family: Arial, Helvetica, sans-serif;
+	display:block;
+	margin: 0 auto;
+	font-size:22px;
+	position: relative;
+}
+#pargo_inner,.pargo_close,#pargo_map,.pargo_map_close{
+-webkit-box-shadow:  0px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+}
+.pargo_close,.pargo_map_close{
+    position: absolute;
+    top: -4px;
+    background: #fff;
+    right: -7px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    line-height: 34px;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    text-indent: 0px;
+    font-family: arial,sans-serif;
+}
+.pargo_close:hover,.pargo_map_close:hover{
+    background: #000;
+	color:#fff;
+    cursor:pointer;
+}
+#pargo-not-selected,#pargo_map{
+	display:none;
+	content:"";
+	background:rgba(0,0,0,0.3);
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	z-index:9999;
+	text-align:center;
+}
+#pargo-not-selected.show-warn{
+	display:table;
+}
+#pargo_map,#pargo_map_center{
+    height: 100%;
+    width: 100%;
+}
+#pargo_map_inner{
+    width: 90%;
+    height: initial;
+    bottom: 5%;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    border-radius: 30px;
+}
+#thePargoPageFrameID{
+	display:block;
+}
+.pargo_blk_title{
+background: #fff200;
+    padding: 43px 0 40px 0;
+    border-top-left-radius: 38px;
+    border-top-right-radius: 38px;
+}
+#pargo-not-selected p{
+text-align:left;
+    margin: 15px 0 20px 0;
+}
+body.pargo_map_open .page-container {
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none;
+}
+@media only screen and (min-width: 481px){
+	#thePargoPageFrameID{
+		border-radius: 20px;
+		border: 15px solid #fff;
+	}
+}
+@media only screen and (max-width: 480px){
+#pargo_center,#pargo_inner {
+    width: 300px;
+}
+#pargo_inner {
+    font-size: 16px;
+}
+.pargo_blk_title {
+    padding: 23px 0 20px 0;
+}
+#pargo-not-selected .pargo_blk_title img {
+    max-width: 120px;
+}
+.pargo_close {
+    top: 0px;
+    right: -1px;
+    width: 34px;
+    height: 34px;
+    line-height: 31px;
+    font-size: 26px;
+}
+.pargo_map_close {
+    top: 3px;
+    right: 3px;
+    width: 25px;
+    height: 25px;
+    line-height: 23px;
+    font-size: 23px;
+    color: #000;
+}
+#pargo_map_inner{
+    height: 100%;
+    width: 100%;
+    top: 0;
+	left:0;
+	bottom:0;
+	border-radius:0px;
+}
+}
