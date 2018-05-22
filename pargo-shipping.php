@@ -11,7 +11,7 @@
  * GitHub Plugin URI: https://github.com/hachondapargo/pargo-wordpress
  */
 
-define("PARGOPLUGINVERSION", "2.0.1");
+define("PARGOPLUGINVERSION", "2.0.3");
 
 //Prevent direct access to plugin 
 if ( ! defined( 'WPINC' ) ) {
