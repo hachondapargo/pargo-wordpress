@@ -3,7 +3,7 @@
  * Plugin Name: Pargo Shipping
  * Plugin URI: http://www.pargo.co.za
  * Description: Pargo is a convenient logistics solution that lets you collect and return parcels at Pargo parcel points throughout the country when it suits you best.
- * Version: 2.0.1
+ * Version: 2.0.3
  * Author: Pargo
  * Author URI: http://www.pargo.co.za
  * License: GPL-3.0+
